@@ -1,0 +1,66 @@
+body {
+	background-color: black;
+	color: white;
+}
+
+.sidebarContainer ul {
+	list-style: none;
+	padding: 0;
+}
+
+.sidebarContainer ul li {
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	border-style: solid;
+	border-top-color: rgb(41, 41, 41);
+	border-bottom-color: rgb(41, 41, 41);
+	border-top-width: 0.03px;
+	border-bottom-width: 0.03px;
+	border-right-color: pink;
+
+	border-left: none;
+}
+
+.sidebarContainer ul li:hover {
+	font-weight: bolder;
+	cursor: pointer;
+}
+
+.mainContainer {
+	color: black;
+}
+
+.mainContainer nav {
+	border-bottom-style: solid;
+	border-bottom-color: rgb(41, 41, 41);
+	border-bottom-width: 0.02px;
+}
+.mainContainer nav form input {
+	background-color: black;
+	color: grey;
+}
+.mainContainer nav form input:focus {
+	background-color: black;
+	color: white;
+}
+.nav-link {
+	color: white;
+}
+
+.listContainer {
+	border-right-style: solid;
+	border-right-color: rgb(41, 41, 41);
+	border-right-width: 0.04px;
+}
+
+.listContainer h5 {
+	color: rgb(245, 98, 213);
+	font-weight: lighter;
+}
+
+.recentPostsContainer {
+}
+.recentPostsContainer ul li {
+	word-break: break-all;
+	text-overflow: ellipsis;
+}
